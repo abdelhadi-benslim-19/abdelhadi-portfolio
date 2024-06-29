@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Abdelhadi Benslim | Portfolio</title>
-    <link rel="icon" type="image/png" href="https://i.pinimg.com/564x/90/2b/84/902b841f3567ff8282b5db97c257aef1.jpg">
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://i.pinimg.com/564x/90/2b/84/902b841f3567ff8282b5db97c257aef1.jpg"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -35,7 +39,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
@@ -46,12 +50,26 @@
               <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#certifications" class="nav-link">Certifications</a>
+            </li>
+            <li class="nav-item">
               <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
+          <a href="resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
         </div>
       </div>
     </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="lead">Hi, I'm Abdelhadi Benslim, a passionate web developer.</p>
+      </div>
+    </header>
 
     <div class="container mt-5">
       <div id="about" class="row justify-content-center align-items-center">
@@ -195,36 +213,215 @@
       </div>
 
       <div class="row mt-5">
-        <div id="contact" class="col-md-12">
-          <h2 class="text-center">Contact</h2>
-          <form class="text-center" action="https://formspree.io/f/mblrrnge" method="POST">
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
+        <div id="testimonials" class="col-md-12">
+          <h2 class="text-center">Testimonials</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Abdelhadi is a fantastic developer who always delivers on
+                      time. His attention to detail is remarkable.
+                    </p>
+                    <footer class="blockquote-footer">Client Name</footer>
+                  </blockquote>
+                </div>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" name="email" required>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      I highly recommend Abdelhadi for any web development
+                      project. He is professional and highly skilled.
+                    </p>
+                    <footer class="blockquote-footer">Client Name</footer>
+                  </blockquote>
+                </div>
+              </div>
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>
+                      Working with Abdelhadi was a great experience. He
+                      understood our needs and delivered a perfect website.
+                    </p>
+                    <footer class="blockquote-footer">Client Name</footer>
+                  </blockquote>
+                </div>
+              </div>
             </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
+          </div>
         </div>
       </div>
 
-      <hr class="mt-5">
+      <div class="row mt-5">
+        <div id="blog" class="col-md-12">
+          <h2 class="text-center">Blog</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Blog Post 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blog Post 1</h5>
+                  <p class="card-text">Short description of blog post 1.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Blog Post 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blog Post 2</h5>
+                  <p class="card-text">Short description of blog post 2.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Blog Post 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blog Post 3</h5>
+                  <p class="card-text">Short description of blog post 3.</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <footer class="text-center mt-4 mb-4">
-        <p>&copy; 2024 Abdelhadi Benslim. All rights reserved.</p>
-      </footer>
+      <div class="row mt-5">
+        <div id="certifications" class="col-md-12">
+          <h2 class="text-center">Certifications and Awards</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Certification 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Certification 1</h5>
+                  <p class="card-text">Description of certification 1.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Certification 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Certification 2</h5>
+                  <p class="card-text">Description of certification 2.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                  alt="Award 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Award 1</h5>
+                  <p class="card-text">Description of award 1.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div id="contact" class="col-md-12">
+          <h2 class="text-center">Contact</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+            </div>
+            <div class="col-md-6 text-center">
+              <h5>Connect with me on:</h5>
+              <a
+                href="https://github.com/your-github-username"
+                target="_blank"
+                class="btn btn-dark"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/your-linkedin-username"
+                target="_blank"
+                class="btn btn-primary"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <footer class="bg-light text-center py-4 mt-5">
+      <div class="container">
+        <p>&copy; 2024 Abdelhadi Benslim. All rights reserved.</p>
+        <a href="#" class="btn btn-primary">Subscribe to Newsletter</a>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      integrity="sha384-N9H9eE0XvHEUR5KZ5wdJ/Q6Bh+p6g3F6Tdkp6St/6viuGv8y+L0tmffZjEt76hYV"
       crossorigin="anonymous"
     ></script>
   </body>
